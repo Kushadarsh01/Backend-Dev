@@ -36,6 +36,4 @@ const wordCount = countWords(content);
 
 createFile(outputFilePath, `Word Count: ${wordCount}`);
 
-module.exports = {
-    countWords
-};
+module.exports = countWords;
