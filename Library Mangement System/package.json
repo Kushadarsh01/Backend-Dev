@@ -1,0 +1,13 @@
+{
+  "name": "library-mangement-system",
+  "version": "1.0.0",
+  "description": "this is library management system",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "Adarsh Kumar Kushwaha",
+  "license": "ISC",
+  "type": "module"
+}
