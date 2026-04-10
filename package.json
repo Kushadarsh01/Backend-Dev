@@ -1,12 +1,13 @@
 {
   "name": "assignment-1",
   "version": "1.0.0",
-  "description": "assignment-1 package.json file",
+  "description": "assignment-1",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
   },
   "keywords": [],
   "author": "Adarsh Kumar Kushwaha",
-  "license": "ISC"
+  "license": "ISC",
+  "type": "commonjs"
 }

@@ -1,8 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const inputFilePath = 'input.txt';
-const outputFilePath = 'wordCount.txt';
+const inputFilePath = './data/input.txt';
+const outputFilePath = './output/wordCount.txt';
 const fileContent = "Hello World!, My name is Adarsh Kumar Kushwaha, I am learning Backend Development from Bridgelabz.";
 
 function createFile(filePath, content) {

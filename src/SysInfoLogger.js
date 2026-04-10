@@ -1,6 +1,7 @@
-const fs = require('fs');
+const { appendFile } = require('fs');
+const os = require('os');
 
-const logFile = "systemInfo.log";
+const logFile = "./logs/systemInfo.log";
 
 function systemInfoLogger() {
     const info = {
@@ -13,7 +14,7 @@ function systemInfoLogger() {
         `CPU Cores: ${info.cpuCores}\n` +
         `Total Memory: ${info.totalMemory / (1024 * 1024 * 1024)} GB\n\n` ;
 
-    fs.appendFile(logFile, log, (err) => {
+    appendFile(logFile, log, (err) => {
         if (err) {
             console.error('Error writing to log file', err);
         } else {
