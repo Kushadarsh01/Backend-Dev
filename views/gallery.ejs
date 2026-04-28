@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gallery</title>
+</head>
+<body>
+    <h1>My Photo Gallery</h1>
+    
+    <% if (images.length > 0) { %>
+        <% images.forEach(function(img) { %>
+            <img src="/images/<%= img %>" width="200" style="margin: 10px;">
+        <% }); %>
+    <% } else { %>
+        <p>No images found in public/images folder.</p>
+    <% } %>
+</body>
+</html>

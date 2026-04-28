@@ -2,9 +2,7 @@ import fs from "fs";
 
 function createUser(req, res) {
     try {
-        const {
-            name
-        } = req.body;
+        const { name } = req.body;
 
         if (!name) {
             return res.status(400).send("Name is required");
@@ -32,7 +30,6 @@ function createUser(req, res) {
         fs.writeFileSync("users.json", JSON.stringify(user, null, 2));
         res.status(201).send("User created successfully");
     }
-
     catch(error) {
         console.log(error);
         res.status(500).send("Internal server error");

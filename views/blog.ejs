@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Blog</title>
+</head>
+<body>
+    <h1>My Blog</h1>
+
+    <h3>Create New Post</h3>
+    <form action="/blog" method="POST">
+        <input type="text" name="title" placeholder="Post Title" required> <br><br>
+        <textarea name="content" placeholder="Post Body" required></textarea> <br><br>
+        <button type="submit">Post</button>
+    </form>
+    <hr>
+
+    <h3>All Posts</h3>
+    <ul>
+        <% if (posts.length > 0) { %>
+            <% posts.forEach(function(post) { %>
+                <li>
+                    <a href="/blog/<%= post.id %>"><%= post.title %></a>
+                </li>
+            <% }); %>
+        <% } else { %>
+            <p>No posts yet!</p>
+        <% } %>
+    </ul>
+</body>
+</html>
