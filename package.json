@@ -1,0 +1,21 @@
+{
+  "name": "backend-dev",
+  "version": "1.0.0",
+  "description": "Assignment for File System Operations",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kushadarsh01/Backend-Dev.git"
+  },
+  "keywords": [],
+  "author": "Adarsh Kumar Kushwaha",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Kushadarsh01/Backend-Dev/issues"
+  },
+  "homepage": "https://github.com/Kushadarsh01/Backend-Dev#readme"
+}
