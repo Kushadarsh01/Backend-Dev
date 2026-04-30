@@ -1,0 +1,21 @@
+{
+  "name": "multi-role-authorization",
+  "version": "1.0.0",
+  "description": "Assignment for Authentication and Authorization [Multi Role Authorization System]",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Adarsh Kumar Kushwaha",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-session": "^1.19.0",
+    "mongoose": "^9.6.1",
+    "nodemon": "^3.1.14"
+  }
+}
