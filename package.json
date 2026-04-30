@@ -1,7 +1,7 @@
 {
-  "name": "filteruser",
+  "name": "backend-dev",
   "version": "1.0.0",
-  "description": "filterUser",
+  "description": "Assignment for Express Framework",
   "main": "app.js",
   "scripts": {
     "start": "nodemon app.js"
