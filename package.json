@@ -1,0 +1,27 @@
+{
+  "name": "backend-dev",
+  "version": "1.0.0",
+  "description": "Assignment for Introduction to Databases.",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kushadarsh01/Backend-Dev.git"
+  },
+  "keywords": [],
+  "author": "Adarsh Kumar Kushwaha",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Kushadarsh01/Backend-Dev/issues"
+  },
+  "homepage": "https://github.com/Kushadarsh01/Backend-Dev#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.6.1",
+    "nodemon": "^3.1.14"
+  }
+}
